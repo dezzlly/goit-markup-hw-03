@@ -64,8 +64,6 @@ body {
 
 /* ============= PAGE HEADER ============= */
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -75,6 +73,8 @@ body {
 }
 
 .page-navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -95,12 +95,13 @@ body {
 }
 
 .logo-header {
+  margin-right: 76px;
   color: var(--secondary-main-text-color);
 }
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .menu-link {
@@ -113,7 +114,7 @@ body {
 
 .contacts {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contacts-link {
@@ -125,6 +126,8 @@ body {
 }
 
 .page-contacts {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-style: normal;
   width: 100%;
   max-width: 344px;
