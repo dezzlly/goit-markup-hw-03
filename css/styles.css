@@ -73,8 +73,6 @@ body {
 }
 
 .page-navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -85,6 +83,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -95,11 +94,12 @@ body {
 }
 
 .logo-header {
-  margin-right: 76px;
   color: var(--secondary-main-text-color);
 }
 
 .menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
@@ -174,7 +174,7 @@ body {
 
 .page-hero-button {
   display: flex;
-  max-width: 169px;
+  min-width: 169px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 24px;
