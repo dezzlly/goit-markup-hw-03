@@ -380,7 +380,7 @@ body {
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-button);
   border-top: none;
 }
 
