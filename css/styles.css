@@ -102,7 +102,27 @@ body {
   gap: 40px;
 }
 
-.menu-link {
+.menu-link-first {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-main-text-color);
+}
+
+.menu-link-second {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-main-text-color);
+}
+
+.menu-link-third {
   padding-top: 24px;
   padding-bottom: 24px;
   font-size: 16px;
@@ -149,7 +169,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   background-color: var(--secondary-main-text-color);
 }
 
