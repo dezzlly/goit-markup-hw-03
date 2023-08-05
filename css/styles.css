@@ -73,6 +73,8 @@ body {
 }
 
 .page-navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -98,8 +100,6 @@ body {
 }
 
 .menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
@@ -173,7 +173,7 @@ body {
 }
 
 .page-hero-button {
-  display: flex;
+  display: block;
   min-width: 169px;
   padding-top: 16px;
   padding-bottom: 16px;
