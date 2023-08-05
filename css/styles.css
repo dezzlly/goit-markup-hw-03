@@ -60,6 +60,19 @@ body {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ============= /COMMON STYLES ============= */
 
 /* ============= PAGE HEADER ============= */
@@ -102,9 +115,12 @@ body {
   gap: 40px;
 }
 
-.menu-link-first {
+.menu-item {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.menu-link-first {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -113,8 +129,6 @@ body {
 }
 
 .menu-link-second {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -123,8 +137,6 @@ body {
 }
 
 .menu-link-third {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -217,6 +229,21 @@ body {
   background-color: var(--hover-button-color);
 }
 
+.page-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.benefit {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .section-header {
   font-size: 36px;
   font-weight: 700;
@@ -228,6 +255,7 @@ body {
 }
 
 .sub-section-header {
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
