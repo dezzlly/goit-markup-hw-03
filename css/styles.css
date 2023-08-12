@@ -1,13 +1,13 @@
 /* ============= VARIABLES ============= */
 
 :root {
-  --main-text-color: #434455;
-  --secondary-main-text-color: #2e2f42;
-  --button-and-footer-text-color: #f4f4fd;
-  --first-part-logo-color-and-button-text: #4d5ae5;
-  --cta-and-hover-button-text-color: #ffffff;
-  --hover-button-color: #404bbf;
-  --border-button: #e7e9fc;
+  --main-color: #434455;
+  --secondary-color: #2e2f42;
+  --secondary-white: #f4f4fd;
+  --blue: #4d5ae5;
+  --white: #ffffff;
+  --secondary-blue: #404bbf;
+  --third-white: #e7e9fc;
 }
 
 /* ============= /VARIABLES ============= */
@@ -49,8 +49,8 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--main-text-color);
-  background-color: var(--cta-and-hover-button-text-color);
+  color: var(--main-color);
+  background-color: var(--white);
 }
 
 .container {
@@ -102,11 +102,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--first-part-logo-color-and-button-text);
+  color: var(--blue);
 }
 
 .logo-header-second {
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .menu {
@@ -121,7 +121,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .menu-link-second {
@@ -131,7 +131,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .menu-link-third {
@@ -141,7 +141,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .contacts {
@@ -154,7 +154,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .page-contacts {
@@ -174,7 +174,7 @@ body {
 .menu-link-third:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: var(--hover-button-color);
+  color: var(--secondary-blue);
 }
 
 /* ============= /PAGE HEADER ============= */
@@ -186,7 +186,7 @@ body {
   justify-content: space-between;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--secondary-main-text-color);
+  background-color: var(--secondary-color);
 }
 
 .page-hero-container {
@@ -205,7 +205,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--cta-and-hover-button-text-color);
+  color: var(--white);
 }
 
 .page-hero-button {
@@ -224,13 +224,13 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--cta-and-hover-button-text-color);
-  background-color: var(--first-part-logo-color-and-button-text);
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 .page-hero-button:hover,
 .page-hero-button:focus {
-  background-color: var(--hover-button-color);
+  background-color: var(--secondary-blue);
 }
 
 .page-benefits {
@@ -256,7 +256,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .section-benefits-header {
@@ -265,7 +265,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .section-team-header {
@@ -275,7 +275,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .section-benefits-text {
@@ -283,7 +283,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .section-team-text {
@@ -292,7 +292,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .page-features {
@@ -311,7 +311,7 @@ body {
 .page-team {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: var(--button-and-footer-text-color);
+  background-color: var(--secondary-white);
 }
 
 .team {
@@ -325,7 +325,7 @@ body {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
-  background-color: var(--cta-and-hover-button-text-color);
+  background-color: var(--white);
 }
 
 .teammate-data {
@@ -354,20 +354,20 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 4px;
-  border: 1px solid var(--border-button);
+  border: 1px solid var(--third-white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--first-part-logo-color-and-button-text);
-  background-color: var(--button-and-footer-text-color);
+  color: var(--blue);
+  background-color: var(--secondary-white);
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: var(--hover-button-color);
-  color: var(--cta-and-hover-button-text-color);
+  background-color: var(--secondary-blue);
+  color: var(--white);
   border: 1px solid transparent;
 }
 
@@ -384,7 +384,7 @@ body {
 
 .app {
   padding: 32px 16px;
-  border: 1px solid var(--border-button);
+  border: 1px solid var(--third-white);
   border-top: none;
 }
 
@@ -394,7 +394,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-main-text-color);
+  color: var(--secondary-color);
 }
 
 .section-portfolio-text {
@@ -402,7 +402,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 /* ============= /PORTFOLIO PAGE ============= */
@@ -412,7 +412,7 @@ body {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--secondary-main-text-color);
+  background-color: var(--secondary-color);
 }
 
 .logo-footer {
@@ -424,11 +424,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--first-part-logo-color-and-button-text);
+  color: var(--blue);
 }
 
 .logo-footer-second {
-  color: var(--button-and-footer-text-color);
+  color: var(--secondary-white);
 }
 
 .text-footer {
@@ -437,7 +437,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--button-and-footer-text-color);
+  color: var(--secondary-white);
 }
 
 /* ============= /PAGE FOOTER ============= */
